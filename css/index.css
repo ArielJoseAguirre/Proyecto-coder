@@ -1,0 +1,86 @@
+*{
+    margin:1;
+    padding: 0;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-size: 3.5rem;
+    width: auto;
+    height: auto;
+
+}
+h2{
+    background-color: black;
+    color: white;
+    font-size: 2.7rem;
+}
+h3{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.30rem;
+}
+ul{
+    
+    list-style: none;
+}
+.ubicacion{
+    background-color: black;
+    color: white;
+}
+.final{
+    background-color: #000000;
+    color: blue;
+}
+.redes{
+    font-size: 1.30rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.2em;
+    padding: 15px;;
+    color: black;
+    background-color: yellow;
+}
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+a:hover{
+    color: blueviolet;
+}
+.lista{
+   
+    display: flex;
+    gap: 30px;
+}
+a{
+
+    text-decoration: none;
+}
+.portada{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/logo.jpeg);
+}
+.form{
+    color:blue;
+    font-size: 1,30rem;
+}
+.bg-blue{
+    background-color: blueviolet;
+    max-width: 1400px;
+    margin: auto;
+
+}
+.bg-violet{
+    background-color: blueviolet;
+    max-width: 1400px;
+    margin: auto;
+}
+.nav-link{
+    color: blueviolet;
+}
