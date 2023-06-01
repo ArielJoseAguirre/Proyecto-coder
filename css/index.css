@@ -52,11 +52,7 @@ header{
 a:hover{
     color: blueviolet;
 }
-.lista{
-   
-    display: flex;
-    gap: 30px;
-}
+
 a{
 
     text-decoration: none;
@@ -83,4 +79,13 @@ a{
 }
 .nav-link{
     color: blueviolet;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.2em;
+    padding: 15px;;
+    color: black;
+    background-color: yellow;
 }
